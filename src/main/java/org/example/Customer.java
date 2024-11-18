@@ -5,6 +5,22 @@ public class Customer extends Person
     private String custNumber;
     private boolean mailingList;
 
+    public String getCustNumber() {
+        return custNumber;
+    }
+
+    public void setCustNumber(String custNumber) {
+        this.custNumber = custNumber;
+    }
+
+    public boolean isMailingList() {
+        return mailingList;
+    }
+
+    public void setMailingList(boolean mailingList) {
+        this.mailingList = mailingList;
+    }
+
     public Customer() {
         this.custNumber = "";
         this.mailingList = false;
